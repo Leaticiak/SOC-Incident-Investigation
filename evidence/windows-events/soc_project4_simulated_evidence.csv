@@ -1,0 +1,9 @@
+timestamp,host,event_id,subject_account,target_account,source_ip,logon_type,process,description
+2026-11-16 09:14:02,FINANCE-PC-04,4625,FINANCE-PC-04$,Administrator,192.168.1.45,3,NtLmSsp,Network logon attempt failed. Status: 0xC000006D; SubStatus: 0xC000006A.
+2026-11-16 09:14:08,FINANCE-PC-04,4625,FINANCE-PC-04$,Administrator,192.168.1.45,3,NtLmSsp,Network logon attempt failed. Status: 0xC000006D; SubStatus: 0xC000006A.
+2026-11-16 09:14:15,FINANCE-PC-04,4625,FINANCE-PC-04$,Administrator,192.168.1.45,3,NtLmSsp,Network logon attempt failed. Status: 0xC000006D; SubStatus: 0xC000006A.
+2026-11-16 09:14:35,FINANCE-PC-04,4624,SYSTEM,Administrator,192.168.1.45,3,NtLmSsp,Successful network logon. Correlate with surrounding authentication and endpoint evidence.
+2026-11-16 09:15:10,FINANCE-PC-04,4798,Administrator,Administrator,N/A,,C:\Windows\System32\svchost.exe,A process queried a user's local group membership. This event alone does not establish malicious activity.
+2026-11-16 09:16:42,FINANCE-PC-04,1,N/A,N/A,N/A,,C:\Users\Public\update.exe,SIMULATED EDR alert: suspicious executable detected. This is not a Windows Security Event ID.
+2026-11-16 09:17:05,FINANCE-PC-04,4720,Administrator,SupportSvc,N/A,,Microsoft-Windows-Security-Auditing,A user account was created. Investigate whether the creation was authorised.
+2026-11-16 09:17:31,FINANCE-PC-04,4732,Administrator,SupportSvc,N/A,,Microsoft-Windows-Security-Auditing,SupportSvc was added to the local Administrators group. Verify authorisation and group context.

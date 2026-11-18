@@ -1,0 +1,8 @@
+timestamp,host,event_id,target_account,source_ip,logon_type,target_logon_id,workstation,authentication_package,status,substatus,description
+2026-11-16 09:25:14,FINANCE-PC-04,4624,SupportSvc,192.168.1.20,3,0x5A21,IT-ADMIN-02,NTLM,,,Successful network logon; simulated approved-maintenance context. Verify against change records.
+2026-11-16 10:02:11,FINANCE-PC-04,4625,SupportSvc,198.51.100.24,3,,UNKNOWN,NTLM,0xC000006D,0xC000006A,Failed network logon. Documentation-only TEST-NET address used in this simulation.
+2026-11-16 10:02:18,FINANCE-PC-04,4625,SupportSvc,198.51.100.24,3,,UNKNOWN,NTLM,0xC000006D,0xC000006A,Failed network logon.
+2026-11-16 10:02:25,FINANCE-PC-04,4625,SupportSvc,198.51.100.24,3,,UNKNOWN,NTLM,0xC000006D,0xC000006A,Failed network logon.
+2026-11-16 10:02:32,FINANCE-PC-04,4625,SupportSvc,198.51.100.24,3,,UNKNOWN,NTLM,0xC000006D,0xC000006A,Failed network logon.
+2026-11-16 10:03:04,FINANCE-PC-04,4624,SupportSvc,198.51.100.24,3,0x7B91,UNKNOWN,NTLM,,,Successful network logon after four failures from the same source in under one minute.
+2026-11-16 10:03:05,FINANCE-PC-04,4672,SupportSvc,,,0x7B91,,,,,Special privileges assigned to new logon. Correlates with 4624 TargetLogonId 0x7B91; inspect full privilege list.
